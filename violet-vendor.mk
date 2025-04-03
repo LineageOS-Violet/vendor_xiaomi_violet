@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libcpion \
+    libcrypto-v34 \
     libdiag \
     libdrmfs \
     libdsutils \
@@ -347,6 +348,7 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmm-hdcpmgr \
     liboemcrypto \
+    libprotobuf-cpp-full \
     libpvr \
     libqcbor \
     libqcci_legacy \

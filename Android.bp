@@ -1266,6 +1266,39 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcrypto-v34",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcrypto-v34.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcrypto-v34.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libdiag",
     owner: "xiaomi",
     strip: {
@@ -1964,6 +1997,45 @@ cc_prebuilt_library_shared {
                 "libcpion",
                 "libhidlbase",
                 "vendor.display.config@1.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libprotobuf-cpp-full",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libprotobuf-cpp-full.so",
+            ],
+            shared_libs: [
+                "libz",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libprotobuf-cpp-full.so",
+            ],
+            shared_libs: [
+                "libz",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
