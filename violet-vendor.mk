@@ -591,6 +591,7 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmegface \
     libmibokeh_660 \
+    libminksocket \
     libmlipay \
     libmlipay@1.1 \
     libmmcamera_faceproc \
