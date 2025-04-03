@@ -348,6 +348,7 @@ PRODUCT_PACKAGES += \
     libmm-hdcpmgr \
     liboemcrypto \
     libpvr \
+    libqcbor \
     libqcci_legacy \
     libqcodec2 \
     libqdi \
@@ -609,7 +610,6 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libqcbor \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
