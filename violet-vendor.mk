@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libcpion \
+    libcrypto-v34 \
     libdiag \
     libdrmfs \
     libdsutils \
@@ -348,6 +349,7 @@ PRODUCT_PACKAGES += \
     libmm-hdcpmgr \
     liboemcrypto \
     libpvr \
+    libqcbor \
     libqcci_legacy \
     libqcodec2 \
     libqdi \
@@ -359,6 +361,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqtigef \
     librmp \
@@ -372,10 +375,12 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     libasphere \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -591,6 +596,7 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmegface \
     libmibokeh_660 \
+    libminksocket \
     libmlipay \
     libmlipay@1.1 \
     libmmcamera_faceproc \
@@ -605,13 +611,11 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libqcbor \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
     libqisl \
-    libqmi_legacy \
     libqrtr \
     libqseed3 \
     libqsocket \
@@ -702,7 +706,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
