@@ -348,7 +348,6 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmm-hdcpmgr \
     liboemcrypto \
-    libprotobuf-cpp-full \
     libpvr \
     libqcbor \
     libqcci_legacy \
