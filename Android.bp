@@ -6392,6 +6392,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     relative_install_path: "camera/components",
     prefer: true,
     soc_specific: true,
