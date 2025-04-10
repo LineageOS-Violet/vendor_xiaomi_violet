@@ -6346,7 +6346,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcomparetf2",
-                "libc++demangle",
+                "libdemangle",
                 "libcamera_metadata",
                 "libcom.qti.chinodeutils",
                 "libvidhance",
@@ -11857,7 +11857,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcomparetf2",
-                "libc++demangle",
+                "libdemangle",
                 "libGLESv3",
                 "libEGL",
                 "libGLESv2",
